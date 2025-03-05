@@ -61,31 +61,36 @@ Automation Testing Report – HealFlow (Hospital Management System - Outpatient 
 # Reports & Administration
 * Reports – Verifying staff performance, patient registration, and appointment reports.
 * Administration – Managing users, roles, tenants, system configurations, and logs.
+  
 # Test Execution Summary
-Module	Status	Remarks
-Hospital Master	✅ Passed	All hospital configurations working correctly
-Ward & Room Master	✅ Passed	Room and ward allocations functioning as expected
-Kiosk Machine Module	⚠️ Issues Found	Slow response time in patient check-in
-Shift Management	✅ Passed	Shifts are assigned correctly
-Staff Management	✅ Passed	No issues found
-Receptionist & Nurse Desk	✅ Passed	Proper record updates and patient flow
-Appointment Scheduling	⚠️ Issues Found	Some appointments not reflecting in dashboard
-Lab Management	✅ Passed	Test processing working fine
-Billing & Invoice	⚠️ Issues Found	Invoice not generating for some patients
-Reports	✅ Passed	Data accuracy confirmed
-Administration	✅ Passed	Role-based access control functioning correctly
-5. Defects Identified
-Bug 1: Delayed response in Kiosk Machine Module during patient check-in.
-Bug 2: Some appointments not appearing on the dashboard after scheduling.
-Bug 3: Invoice generation failure in specific billing scenarios.
-6. Key Findings & Observations
-Stable Performance: The system functions well across all major modules with minimal defects.
-Role-Based Access: Users with different roles (Doctors, Nurses, Receptionists, Admins) had appropriate access permissions.
-Data Synchronization Issues: Some delays were noted in appointment scheduling and invoice processing.
-Cross-Browser Testing: The system performed well across Chrome, Edge, and Firefox, with minor UI inconsistencies.
-Efficiency Gains: Automated testing significantly reduced manual testing efforts and execution time.
-7. Conclusion & Recommendations
-Fix the Identified Defects: Improve kiosk response time, fix appointment syncing, and resolve billing issues.
-Optimize System Performance: Improve data processing speeds, especially in real-time updates.
-Enhance Error Handling: Strengthen validation mechanisms for invoice and appointment modules.
-Implement Continuous Testing: Integrate automation with CI/CD pipelines for ongoing validation.
+|Module	|Status	|Remarks|
+|-------|-------|-------|
+|Hospital Master	✅ Passed	|All hospital configurations working correctly|
+|Ward & Room Master	✅ Passed	|Room and ward allocations functioning as expected|
+|Kiosk Machine Module	|⚠️ Issues Found	|Slow response time in patient check-in|
+|Shift Management	|✅ Passed	|Shifts are assigned correctly|
+|Staff Management	|✅ Passed	|No issues found|
+|Receptionist & Nurse Desk	|✅ Passed	Proper |record updates and patient flow|
+|Appointment Scheduling	|⚠️ Issues Found	|Some appointments not reflecting in dashboard|
+|Lab Management	|✅ Passed	|Test processing working fine|
+|Billing & Invoice	|⚠️ Issues Found	|Invoice not generating for some patients|
+|Reports	|✅ Passed	|Data accuracy confirmed|
+|Administration	|✅ Passed	|Role-based access control functioning correctly|
+
+# Defects Identified
+* Bug 1: Delayed response in Kiosk Machine Module during patient check-in.
+* Bug 2: Some appointments not appearing on the dashboard after scheduling.
+* Bug 3: Invoice generation failure in specific billing scenarios.
+  
+# Key Findings & Observations
+* Stable Performance: The system functions well across all major modules with minimal defects.
+* Role-Based Access: Users with different roles (Doctors, Nurses, Receptionists, Admins) had appropriate access permissions.
+* Data Synchronization Issues: Some delays were noted in appointment scheduling and invoice processing.
+* Cross-Browser Testing: The system performed well across Chrome, Edge, and Firefox, with minor UI inconsistencies.
+* Efficiency Gains: Automated testing significantly reduced manual testing efforts and execution time.
+  
+# Conclusion & Recommendations
+* Fix the Identified Defects: Improve kiosk response time, fix appointment syncing, and resolve billing issues.
+* Optimize System Performance: Improve data processing speeds, especially in real-time updates.
+* Enhance Error Handling: Strengthen validation mechanisms for invoice and appointment modules.
+* Implement Continuous Testing: Integrate automation with CI/CD pipelines for ongoing validation.
