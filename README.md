@@ -1,4 +1,4 @@
-# Automation Testing Report – HealFlow (Hospital Management System - Outpatient Management)
+# Automation Testing Report – (Hospital Management System - Outpatient Management)
 # Project Overview
 * Project Name: HealFlow Hospital Management System (HMS)
 * Testing Type: End-to-End Automation Testing
