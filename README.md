@@ -13,9 +13,10 @@
 * Design Pattern: Page Object Model (POM)
 
 # Browsers Tested:
-* Chrome,
+* Chrome
 * Edge
 * Firefox
+  
 # Test Environment:
 * OS: Windows 11
 * Database: PG Admin
