@@ -65,8 +65,8 @@ Automation Testing Report – HealFlow (Hospital Management System - Outpatient 
 # Test Execution Summary
 |Module	|Status	|Remarks|
 |-------|-------|-------|
-|Hospital Master	✅ Passed	|All hospital configurations working correctly|
-|Ward & Room Master	✅ Passed	|Room and ward allocations functioning as expected|
+|Hospital Master	|✅ Passed	|All hospital configurations working correctly|
+|Ward & Room Master	|✅ Passed	|Room and ward allocations functioning as expected|
 |Kiosk Machine Module	|⚠️ Issues Found	|Slow response time in patient check-in|
 |Shift Management	|✅ Passed	|Shifts are assigned correctly|
 |Staff Management	|✅ Passed	|No issues found|
